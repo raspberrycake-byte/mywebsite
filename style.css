@@ -1,0 +1,251 @@
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #9EC5AB; 
+}
+
+.video {
+  margin-top: 30px;
+}
+
+.video-container {
+  position: relative;
+  width: 80%; 
+  max-width: 640px; 
+  padding-bottom: 45%; 
+  height: 0;
+  overflow: hidden;
+  margin: 0 auto; 
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  color: #32746D;
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 25px 20px;
+}
+/*container for blog DO NOT DELETE*/
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+/*no idea what I did here but it makes the blog cards spaced out and make sense so DON'T DELETE THIS*/
+@media (max-width: 768px) /*IDK WHAT THIS DOES PLEASE TELL ME! I know it ensures the max width but for what media? When I delete this the text container for the blog cards are messed up*/
+  .card {
+    width: 308px;
+    height: 400px;
+    margin: 30px 20px;
+    border-radius: 4px;
+    padding: 20px 10px;
+    overflow: visible;
+  }
+  .text-container{
+    max-width: 80%;
+  }
+  main {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  }
+/*shows and movie reviews text*/
+.blog{
+  margin-top: 5% ;
+    color: #104F55;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Trirong", serif;
+    font-variant: small-caps;
+
+}
+/*beginning of button section*/
+.uniform-button {
+  width: 100px;  
+  height: 50px;  
+  padding: 10px;  
+  font-size: 16px; 
+  margin: 5px;  
+  display: inline-block; 
+  box-sizing: border-box;  
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: #104F55;
+}
+button:hover{
+  background-color:#32746D ;
+}
+/*end of button section*/
+}
+.pfp{
+  margin-top: 30px;
+}
+.pfp-img{
+  width: 250px;
+  height: auto;
+  margin-top: 30px;
+}
+.intro {
+  margin-top: 30px;
+  text-align: left;
+}
+#introh2{
+ margin: 20px; 
+}
+/*index flexbox*/
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-container > *{
+  flex: 1 1 30em;
+}
+}
+/*portfolio cards*/
+.left { /*this centers the cards for some reason*/
+  float: left;
+  width: 180px;
+  margin: 0;
+  padding: 1em;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cardport{
+  width: 380px;
+  background-color: #104f55;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2 px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  transition: transform 0.6s ease;
+}
+.cardport img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.cardport:hover{
+  transform: translateY(-20px);
+}
+/*this is the cards for blog section-it moves when you hover the cursor*/
+.card{
+  transition: transform 0.6s ease;
+}
+.card:hover{
+  transform: translateY(-20px);
+}
+#card{
+  transition: transform 0.6s ease;
+}
+#card:hover{
+  transform: translateY(-20px);
+}
+/*portfolio*/
+#light{
+  width: auto;
+  height: 500px;
+
+}
+#port{
+  color: #01200f;
+}
+#buttons{
+  margin-top: 3%;
+}
+#project{
+  text-align: center;
+}
+}
+/* STYLE TEXT */
+
+h1 {
+  color: #104F55;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Trirong", serif;
+  font-variant: small-caps;
+
+}
+h3 {
+  color: #01200F;
+  text-align: center;
+  margin-bottom: 35px;
+  font-family: "Trirong", serif;
+  font-variant: small-caps;
+}
+h2 {
+  color: #01200F;
+  text-align: center;
+}
+h4 {
+  color: #104F55;
+  text-align: center;
+}
+h5 {
+  color: #104F55;
+  text-align: center;
+}
+
+/* STYLE IMAGES */
+img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  margin: 0 auto 15px auto;
+}
+
+/* STYLE NAV BAR */
+ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  background-color: #011502;
+}
+
+li {
+  display: inline;
+  margin: 0;
+  padding: 20px;
+}
+li a:hover{
+  background-color:#32746D ;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+/* margins and padding*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* footer */
+.footer {
+  margin-top: 5%;
+  padding: 10px 20px;
+  background-color: #01200F;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
